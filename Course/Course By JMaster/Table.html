@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="HTML for Beginners">
+		<title>HTML Table</title>
+	</head>
+	<body>
+		<h1>HTML TABLE</h1>
+		<table border="1">
+			<!-- Group header content in an HTML table -->
+			<thead>
+				<!-- A row in an HTML table -->
+				<tr>
+					<!-- A header cell in an HTML table -->
+					<th>ID</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<!-- Group the body content in an HTML table -->
+			<tbody>
+				<tr>
+					<!-- A standard data cell in an HTML table -->
+					<td>1</td>
+					<td>Java</td>
+					<td>Java@.com</td>
+					<td>
+						<a href="#">Edit</a> | <a href="#">Delete</a>
+					</td>
+				</tr>
+				<tr>
+					<!-- A standard data cell in an HTML table -->
+					<td>2</td>
+					<td>SQL</td>
+					<td>SQL@.com</td>
+					<td>
+						<a href="#">Edit</a> | <a href="#">Delete</a>
+					</td>
+				</tr>
+				<tr>
+					<!-- A standard data cell in an HTML table -->
+					<td>3</td>
+					<td colspan="2" rowspan="2">Span Col Master</td>
+					<td>
+						<a href="#">Edit</a> | <a href="#">Delete</a>
+					</td>
+				</tr>
+				<tr>
+					<!-- A standard data cell in an HTML table -->
+					<td>4</td>
+					<td>
+						<a href="#">Edit</a> | <a href="#">Delete</a>
+					</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Action</th>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
