@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Fieldset</title>
+</head>
+
+<body>
+    <fieldset>
+        <form action="" name="f1" method="GET">
+            <fieldset>
+                <legend>Account</legend>
+                <label for="tbUsername">Username</label>
+                <input type="text" id="tbUsername" /> <br />
+                <label for="tbPassword">Password</label>
+                <input type="password" id="tbPassword" /><br />
+            </fieldset>
+            <fieldset>
+                <legend>Personal</legend>
+                <label for="tbLastN">Họ</label>
+                <input type="text" id="tbLastN" /> <br />
+                <label for="tbFirstN">Tên</label>
+                <input type="text" id="tbFirstN" /> <br />
+                <!-- Radiobox -->
+                <label for="">Giới tính</label>
+                <input type="radio" name="sex" id="Male" value="Nam" checked />
+                <label for="Male">Nam</label>
+                <input type="radio" name="sex" id="Female" value="Nu" />
+                <label for="Female">Nữ</label> <br />
+                <input type="color" name="" id="" value="#fff" /> <br />
+                <select name="sl" id="sl" style="color: black; background-color: gainsboro; width: 100px">
+            <optgroup label="Group 1">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+            </optgroup>
+          </select>
+            </fieldset>
+            <input type="submit" name="btnSubmit" value="Submit" />
+            <input type="file" name="" id="" />
+        </form>
+    </fieldset>
+</body>
+
+</html>
